@@ -14,12 +14,3 @@ type Form = {
 };
 
 type Params = Omit<Form, 'errors'>;
-
-const exampleParams: Params = {
-  email: 'example@example.com',
-  firstName: 'John',
-  lastName: 'Doe',
-  phone: '123-456-7890'
-};
-
-console.log(exampleParams);

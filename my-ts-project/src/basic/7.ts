@@ -2,8 +2,8 @@ type Page1 = {
   title: string;
   likes: number;
   accounts: string[],
-  status: string,
-  details?: object;
+  status: "open" | "closed",
+  details?: Date;
 }
 
 const page1: Page1 = {
@@ -28,6 +28,6 @@ const page2: Page2 = {
   title: 'Python or Js',
   likes: 5,
   accounts: ['Alex'],
-  status: 'close',
+  status: 'closed',
 }
 
